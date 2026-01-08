@@ -2,6 +2,26 @@
 
 ## A multi‑format text extractor, model‑aware tokenizer, and chunk‑analysis engine.
 
+          ┌──────────────┐
+          │   Frontend    │
+          └──────┬───────┘
+                 │
+        ┌────────▼────────┐
+        │   Express API    │
+        └────────┬────────┘
+                 │
+        ┌────────▼────────┐
+        │ Extraction Layer │
+        └────────┬────────┘
+                 │
+        ┌────────▼────────┐
+        │ Tokenizer Layer  │
+        └────────┬────────┘
+                 │
+        ┌────────▼────────┐
+        │ Worker Threads   │
+        └──────────────────┘
+
 ---
 
 This project is provided for portfolio review only. No permission is granted for reuse, modification, or redistribution.
