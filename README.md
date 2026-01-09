@@ -1,6 +1,6 @@
-# Model‑Aware Tokenizer (The Tokenator)
+## Model‑Aware Tokenizer (The Tokenator)
 
-## A multi‑format text extractor, model‑aware tokenizer, and chunk‑analysis engine.
+### A multi‑format text extractor, model‑aware tokenizer, and chunk‑analysis engine.
 
 ---
 
