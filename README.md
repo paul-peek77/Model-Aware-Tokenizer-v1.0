@@ -2,8 +2,6 @@
 
 ## A multi‑format text extractor, model‑aware tokenizer, and chunk‑analysis engine.
 
-[Upload] → [Extraction] → [Tokenizer] → [Chunker] → [JSON Output]
-
 ---
 
 This project is provided for portfolio review only. No permission is granted for reuse, modification, or redistribution.
