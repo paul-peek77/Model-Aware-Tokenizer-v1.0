@@ -1,6 +1,6 @@
 ## Model‑Aware Tokenizer (The Tokenator)
 
-### A multi‑format text extractor, model‑aware tokenizer, and chunk‑analysis engine.
+#### A multi‑format text extractor, model‑aware tokenizer, and chunk‑analysis engine.
 
 ---
 
@@ -236,5 +236,3 @@ The Tokenator demonstrates:
 - robust error handling
 - developer‑friendly UX
 - testability and reproducibility
-
-It’s a practical tool with real engineering depth — the kind of project that shows you can design, build, and ship systems that solve real problems.
