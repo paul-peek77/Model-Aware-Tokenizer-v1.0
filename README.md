@@ -4,7 +4,7 @@
 
 ---
 
-This project is provided for portfolio review only. No permission is granted for reuse, modification, or redistribution.
+/ This project is provided for portfolio review only. No permission is granted for reuse, modification, or redistribution.
 
 ---
 
@@ -29,7 +29,7 @@ This project demonstrates systems thinking, multi‑format parsing, concurrency,
 
 ---
 
-Features
+#### Features
 
 🧩 Multi‑Format Extraction
 
@@ -101,7 +101,7 @@ A simple test script validates:
 
 ---
 
-Architecture
+#### Architecture
 
     [Upload]
         ↓
@@ -113,21 +113,21 @@ Architecture
         ↓
     [Response JSON]
 
-Extraction Pipeline
+#### Extraction Pipeline
 
 - Detects file type
 - Routes to appropriate extractor
 - Applies OCR if enabled
 - Caps extracted text to 5MB
 
-Tokenizer Layer
+#### Tokenizer Layer
 
 - Parses model specs
 - Selects encoder
 - Computes token counts
 - Computes chunks needed
 
-Worker Path
+#### Worker Path
 
 Used for large files:
 
@@ -135,7 +135,7 @@ Used for large files:
 
 ---
 
-Repository Structure
+#### Repository Structure
 
     tokenator/
         server.js
@@ -156,21 +156,21 @@ Repository Structure
 
 ---
 
-Usage
+#### Usage
 
 Install
 `
 npm install
 `
 
-Optional:
+#### Optional:
 `
 npm install tiktoken
 npm install gpt-3-encoder
 npm install tesseract.js
 `
 
-Run the server
+#### Run the server
 `
 npm start
 `
@@ -189,9 +189,10 @@ npm run run:local
 
 ---
 
-API
+#### API
 
 POST /upload
+
 Multipart form‑data:
 
 - file — uploaded file
@@ -213,7 +214,7 @@ Returns JSON:
 
 ---
 
-Security Notes
+#### Security Notes
 
 - No authentication — do not deploy publicly
 - Upload limit: 50MB
@@ -223,7 +224,7 @@ Security Notes
 
 ---
 
-Why This Project Matters
+#### Why This Project Matters
 
 The Tokenator demonstrates:
 
