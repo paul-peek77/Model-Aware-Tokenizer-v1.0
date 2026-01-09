@@ -8,7 +8,7 @@ This project is provided for portfolio review only. No permission is granted for
 
 ---
 
-Overview
+#### Overview
 
 Tokenator is a full‑stack tool for analyzing token counts across multiple LLM models. It accepts a wide range of file formats, extracts text using best‑effort converters, and evaluates token usage using:
 
