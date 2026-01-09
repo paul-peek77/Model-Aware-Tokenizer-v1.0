@@ -4,7 +4,7 @@
 
 ---
 
-This project is provided for portfolio review only. No permission is granted for reuse, modification, or redistribution.
+*This project is provided for portfolio review only. No permission is granted for reuse, modification, or redistribution.*
 
 ---
 
